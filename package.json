@@ -1,0 +1,19 @@
+{
+  "name": "flappy",
+  "version": "1.0.0",
+  "description": "flappy bird clone in js",
+  "main": "flappy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jason",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-terser": "^2.1.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
