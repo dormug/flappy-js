@@ -97,10 +97,6 @@ function update_screen_size() {
 function loop() {
     currentTime = new Date();
     dt = (currentTime - previousTime) / (1000 / 60);
-    if (dt === undefined) {
-        console.log(currentTime - previousTime);
-        console.log(1000 / 60);
-    }
     previousTime = currentTime;
 
     switch (state) {
